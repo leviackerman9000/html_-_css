@@ -1,10 +1,11 @@
-.box{
+.box {
     width: 200px;
 
     border: 5px solid gray;
     text-align: center;
     padding: 50px;
-    margin: 50px 100px; /*first:top-bottom, second:left-right */
+    margin: 50px 100px;
+    /*first:top-bottom, second:left-right */
 
     /* margin-top: 50px;
     margin-left: 100px; */
@@ -12,24 +13,27 @@
 }
 
 
-.title{
+.title {
     display: inline;
 }
-.title2{
+
+.title2 {
     display: none;
 }
 
-.description{
+.description {
     color: #ff0000;
 }
 
-.description2{
-    color: rgba(255,0,0,0.5);
+.description2 {
+    color: rgba(255, 0, 0, 0.5);
     font-size: 50px;
     font-weight: bold;
     text-align: center;
     width: 50%;
     margin: auto;
+    font-family: "Jersey 15", serif;
+    font-style: normal;
 
 }
 
