@@ -5,6 +5,7 @@
     text-align: center;
     padding: 50px;
     margin: 50px 100px;
+    /* position: fixed; */
     /*first:top-bottom, second:left-right */
 
     /* margin-top: 50px;
@@ -37,6 +38,36 @@
 
 }
 
+.box-all{
+    width: 250px;
+    height: 250px;
+    margin-top: 5px;
+}
+.box1{
+    border: 5px, solid, red;
+    position: relative;
+    left: 250px;
+    top: 20px;
+    background-color: green;
+}
+.box2{
+    border: 5px, solid, green;
+}
+.box3{
+    border: 5px, solid, blue;
+}
+.red{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px, solid, red;
+    background-color: red;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+
+
+}
 /* .title{
     color:burlywood;
     margin-top: 100px;
