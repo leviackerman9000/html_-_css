@@ -11,11 +11,33 @@
 
 }
 
+
 .title{
+    display: inline;
+}
+.title2{
+    display: none;
+}
+
+.description{
+    color: #ff0000;
+}
+
+.description2{
+    color: rgba(255,0,0,0.5);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+
+}
+
+/* .title{
     color:burlywood;
     margin-top: 100px;
     margin-left: 100px;
-}
+} */
 
 
 
