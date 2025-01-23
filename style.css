@@ -65,9 +65,54 @@
     position: absolute;
     left: 100px;
     top: 100px;
+}
 
+.line-1{
+    width:300px;
+    height: 200px;
+    border: 1px solid gray;
+}
+.line-2{
+    width:300px;
+    height: 200px;
+    border: 1px solid rgb(16, 196, 16);
+}
+.line-3{
+    width:300px;
+    height: 200px;
+    border: 1px solid red;
+}
+.line-4{
+    width:300px;
+    height: 200px;
+    border: 1px solid brown;
+}
+
+.line-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 100vh;
+    border: 1px solid goldenrod;
+    align-items: center;
+}
+
+.banner{
+    width: 600px;
+    height: 300px;
+    color: white;
+    border: 1px solid red;
+    margin: auto;
+    background-image: url(images/green.jpg), linear-gradient(45deg, red,blue);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
 }
+
 /* .title{
     color:burlywood;
     margin-top: 100px;
