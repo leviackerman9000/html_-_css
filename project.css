@@ -120,3 +120,38 @@ a{
     color: white;
     border: none;
 }
+
+/* for mobile screens */
+@media only screen and (min-width: 400px) and (max-width:767px){
+    body{
+        background-color: red;
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+        /* can overwrite everything: !important  */
+        justify-content: center !important;
+        
+    }
+}
+
+/* for tablet screens */
+@media only screen and (min-width: 768px) and (max-width:992px){
+    body{
+        background-color: blue;
+    }
+    .title{
+        color: white;
+    }
+}
+
+/* for desktops, not necessary since main CSS above is for desktop */
+@media only screen and (min-width: 993px) and (max-width:1600px){
+    body{
+        background-color: gray;
+    }
+}
+
+
+
+
